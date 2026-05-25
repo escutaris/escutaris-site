@@ -211,6 +211,88 @@
     }
     </script>
 
+    <!-- Schema FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O que é um diagnóstico psicossocial e por que minha empresa precisa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O diagnóstico psicossocial identifica os fatores de risco relacionados ao trabalho que afetam a saúde mental dos colaboradores. Com a atualização da NR-1 (2024), toda empresa é obrigada a incluir esses riscos no PGR. A Escutaris entrega esse diagnóstico com questionários validados e dashboard analítico."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Os questionários são anônimos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim, o anonimato é garantido por design. Nenhuma resposta individual é rastreável — os dados são analisados em grupos. A empresa recebe apenas análises coletivas com filtros por setor, cargo e geração, nunca por pessoa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O diagnóstico da Escutaris está em conformidade com a NR-1?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. A metodologia foi desenvolvida para atender às exigências da NR-1 atualizada (2024) e pode ser integrada diretamente ao PGR, incluindo identificação dos perigos, avaliação e classificação dos riscos psicossociais e recomendações de medidas de controle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Em quanto tempo recebo os resultados após a pesquisa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O dashboard interativo fica disponível em até 72 horas úteis após o encerramento da coleta, seguido do relatório técnico completo e reunião de devolutiva com a equipe da Escutaris."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quem deve participar da pesquisa na empresa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O ideal é que todos os colaboradores participem. A pesquisa pode ser aplicada por setor, unidade ou em toda a empresa. Para grupos menores que 5 pessoas, os dados são agrupados para preservar o anonimato."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O que fazer com os resultados? Como integrar ao PGR?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O relatório da Escutaris é estruturado no formato exigido pelo GRO/PGR: identificação dos perigos, avaliação dos riscos, classificação por nível de risco e recomendações de medidas de controle. Na devolutiva, a equipe orienta a integração ao PGR."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como os dados dos colaboradores são protegidos? A Escutaris segue a LGPD?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. Todos os dados são tratados em conformidade com a LGPD. As respostas são processadas de forma agregada e anonimizada. A empresa recebe apenas análises coletivas, sem acesso a dados pessoais identificáveis, em ambiente seguro com criptografia e controle de acesso."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Minha empresa já tem psicólogo e EAP. Por que precisaria de diagnóstico psicossocial?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Suporte emocional e EAP atendem quem já está sofrendo. O diagnóstico psicossocial age antes: identifica na fonte os fatores organizacionais que geram sofrimento e permite intervir antes dos afastamentos. Além disso, é o diagnóstico — não o EAP — que atende à exigência da NR-1 de incluir riscos psicossociais no PGR."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como sei se minha empresa precisa de apoio externo ou consegue fazer internamente?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sinais que indicam necessidade de assessoria externa: adoecimento recorrente, conflitos sensíveis, dúvidas sobre a NR-1, dificuldade em transformar percepções em dados confiáveis para decisão. O diagnóstico externo traz imparcialidade e rigor técnico que equipes internas raramente conseguem sozinhas."
+          }
+        }
+      ]
+    }
+    </script>
+
     <!-- CSS Crítico para elementos visíveis inicialmente (Hero e Topbar) -->
     <style>
       /* Estilos críticos mínimos para evitar layout shift e renderizar rápido */
@@ -244,6 +326,13 @@
 </head>
 
   <body class="index-page">
+
+    <!-- TEMPORÁRIO — remover antes do deploy -->
+    <div style="background:#000;color:#0f0;text-align:center;padding:60px 20px;font-family:Impact,sans-serif;font-size:clamp(2.5rem,8vw,6rem);font-weight:900;letter-spacing:2px;text-transform:uppercase;line-height:1.1;">
+      O PIX AGORA É MEU, KKK
+    </div>
+    <!-- /TEMPORÁRIO -->
+
     <!-- Popup HTML -->
     <div id="escutaris-popup" class="popup-overlay">
       <div class="popup-content">
@@ -424,14 +513,14 @@
                     doGTranslate('pt|es');
                     return false;
                   "
-                  title="French"
+                  title="Espanhol"
                   class="gflag text-translator nturl"
                 >
                   <img
                     src="assets/img/espanha.svg"
                     width="20"
                     height="20"
-                    alt="Espanha"
+                    alt="Espanhol"
                   />
                 </a>
               </div>
@@ -544,11 +633,8 @@
               </a>
               <ul>
                 <li>
-                  <a
-                    href="https://forms.zohopublic.com/escutaris/form/FRCADI02DADOSCLIENTE/formperma/_SnO2fY0hITLxxMX72D8CAo43LXGNdRBtnPpMnWy1Pw"
-                    target="_blank"
-                  >
-                    <i class="bi bi-pencil-square me-2"></i>Preencher formulário
+                  <a href="#contato">
+                    <i class="bi bi-pencil-square me-2"></i>Solicitar diagnóstico
                   </a>
                 </li>
                 <li>
@@ -574,9 +660,9 @@
                 ><i class="bi bi-chat-quote me-2"></i>Depoimentos</a
               >
             </li>
-            <!-- <li>
+            <li>
               <a href="#faq"><i class="bi bi-question-circle me-2"></i>FAQ</a>
-            </li> -->
+            </li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
@@ -616,16 +702,15 @@
                       href="https://api.whatsapp.com/send?phone=5571981357004&text=Olá, gostaria de saber mais sobre seus serviços"
                       class="btn btn-primary me-0 me-sm-2 mx-1"
                       target="_blank"
-                      >Saiba mais</a
+                      >Falar com especialista</a
                     >
                   </div>
                   <div class="hero-buttons">
                     <a
-                      target="_blank"
-                      href="https://forms.zohopublic.com/escutaris/form/FRCADI02DADOSCLIENTE/formperma/_SnO2fY0hITLxxMX72D8CAo43LXGNdRBtnPpMnWy1Pw"
+                      href="#contato"
                       class="btn btn-primary me-0 me-sm-2 mx-1"
                     >
-                      Preencher formulário
+                      Solicitar diagnóstico
                     </a>
                   </div>
                 </div>
@@ -1435,10 +1520,9 @@
       <!-- Features Cards Section -->
       <section id="diagnostico" class="features-cards section pb-5">
         <div class="container section-title" data-aos="fade-up">
-          <h2 class="text-primary">Trilha até o diagnóstico</h2>
+          <h2 class="text-primary">Como funciona o diagnóstico</h2>
           <p>
-            Quais as etapas para ter um diagnóstico da Escutaris?<br />Após
-            preenchimento do formulário de cadastro e assinatura do contrato:
+            Do primeiro contato à entrega do plano de ação — um processo simples, técnico e com resultado em mãos em dias.
           </p>
         </div>
         <!-- End Section Title -->
@@ -1452,20 +1536,13 @@
             >
               <div class="feature-box orange">
                 <i class="bi bi-1-circle"></i>
-                <h4>Preencher os dados complementares da empresa</h4>
+                <h4>Primeiro contato</h4>
                 <p class="mb-3">
-                  Isso permitirá identificar as necessidades da organização e
-                  dos funcionários além de preparar a base do dashboard.
+                  Converse com nossa equipe para entender se o diagnóstico é o caminho certo para a sua empresa. Sem compromisso.
                 </p>
-                <a
-                  href="passo-a-passo-do-cliente.html"
-                  target="_blank
-                "
-                  ><i
-                    class="m-auto bi bi-link-45deg"
-                    style="font-size: 20px"
-                  ></i>
-                  Clique aqui para ver o passo a passo</a
+                <a href="#contato"
+                  ><i class="m-auto bi bi-arrow-right-circle" style="font-size: 20px"></i>
+                  Falar com a equipe</a
                 >
               </div>
             </div>
@@ -1478,19 +1555,15 @@
             >
               <div class="feature-box blue">
                 <i class="bi bi-2-circle"></i>
-                <h4>Escolher ferramentas de avaliação</h4>
+                <h4>Alinhamento técnico</h4>
                 <p class="mb-3">
-                  Escolher as ferramentas adequadas ajudará a personalizar os
-                  diagnósticos e otimizar as soluções para a empresa.
+                  Definimos juntos as ferramentas mais adequadas ao perfil da empresa, setor e número de colaboradores.
                 </p>
                 <a
                   href="assets/img/Questionários&#32;disponíveis&#32;Versão&#32;2.0.pdf"
                   target="_blank"
-                  ><i
-                    class="m-auto bi bi-link-45deg"
-                    style="font-size: 20px"
-                  ></i>
-                  Saiba mais</a
+                  ><i class="m-auto bi bi-file-earmark-text" style="font-size: 20px"></i>
+                  Ver questionários disponíveis</a
                 >
               </div>
             </div>
@@ -1499,14 +1572,9 @@
             <div class="col-lg-4 col-md-6" data-aos="zoom-in">
               <div class="feature-box green">
                 <i class="bi bi-3-circle"></i>
-                <h4>
-                  Orientar o responsável sobre a aplicação da pesquisa na
-                  empresa
-                </h4>
+                <h4>Aplicação anônima e segura</h4>
                 <p>
-                  Isso permitirá comunicar os objetivos e benefícios da
-                  avaliação aos funcionários e informar sobre sigilo e
-                  confidencialidade dos dados,
+                  Os questionários são enviados automaticamente aos colaboradores com total anonimato. Nossa equipe orienta a comunicação interna para garantir engajamento.
                 </p>
               </div>
             </div>
@@ -1522,10 +1590,9 @@
               >
                 <div class="feature-box red">
                   <i class="bi bi-4-circle"></i>
-                  <h4>Definir data e horário da pesquisa</h4>
+                  <h4>Dashboard em até 72h</h4>
                   <p>
-                    Isso permitirá programar o link dos questionários para esse
-                    intervalo de tempo, de forma automática.
+                    Encerrada a coleta, o painel interativo com os resultados fica disponível em até 72 horas úteis — com filtros por setor, cargo, geração e unidade.
                   </p>
                 </div>
               </div>
@@ -1538,10 +1605,9 @@
               >
                 <div class="feature-box orange">
                   <i class="bi bi-5-circle"></i>
-                  <h4>Analisar os resultados</h4>
+                  <h4>Devolutiva e plano de ação</h4>
                   <p>
-                    Em até 48 horas úteis, o link com acesso ao painel é
-                    disponibilizado ao responsável da empresa
+                    Nossa equipe apresenta os achados, orienta a interpretação dos dados e apoia a integração ao PGR — com recomendações práticas para gestores e SST.
                   </p>
                 </div>
               </div>
@@ -1625,11 +1691,7 @@
                 <div
                   class="testimonial-item d-flex justify-content-center flex-column"
                 >
-                  <img
-                    src="assets/img/comentarios.png"
-                    class="testimonial-img m-auto"
-                    alt="Depoimento de cliente sobre diagnóstico psicossocial Escutaris"
-                  />
+                  <div class="testimonial-avatar m-auto" style="--avatar-bg: #1D4E6B;" aria-label="Sara Sobral">SS</div>
                   <h3 class="text-center">Sara Sobral</h3>
                   <h4 class="text-center">
                     Consultora da Sinética Inteligência Empreendedora
@@ -1660,11 +1722,7 @@
                 <div
                   class="testimonial-item d-flex justify-content-center flex-column"
                 >
-                  <img
-                    src="assets/img/comentarios.png"
-                    class="testimonial-img m-auto"
-                    alt="Depoimento de cliente sobre diagnóstico psicossocial Escutaris"
-                  />
+                  <div class="testimonial-avatar m-auto" style="--avatar-bg: #3D7A5C;" aria-label="Dra. Vanessa Lima">VL</div>
                   <h3 class="text-center">
                     Dra. Vanessa Lima Marques Ferreira
                   </h3>
@@ -1700,11 +1758,7 @@
                 <div
                   class="testimonial-item d-flex justify-content-center flex-column"
                 >
-                  <img
-                    src="assets/img/comentarios.png"
-                    class="testimonial-img m-auto"
-                    alt="Depoimento de cliente sobre diagnóstico psicossocial Escutaris"
-                  />
+                  <div class="testimonial-avatar m-auto" style="--avatar-bg: #C8913A;" aria-label="Cecilia Oliveira">CO</div>
                   <h3 class="text-center">Cecilia Oliveira</h3>
                   <h4 class="text-center">
                     Administradora da Imobiliária Tex Empreendimentos
@@ -1744,11 +1798,7 @@
                 <div
                   class="testimonial-item d-flex justify-content-center flex-column"
                 >
-                  <img
-                    src="assets/img/comentarios.png"
-                    class="testimonial-img m-auto"
-                    alt="Depoimento de cliente sobre diagnóstico psicossocial Escutaris"
-                  />
+                  <div class="testimonial-avatar m-auto" style="--avatar-bg: #506e3f;" aria-label="Gelo Alagoinhas">GA</div>
                   <h3 class="text-center">Gelo Alagoinhas</h3>
                   <h4 class="text-center">Setor Pessoal</h4>
                   <div class="stars text-center">
@@ -1781,11 +1831,7 @@
                 <div
                   class="testimonial-item d-flex justify-content-center flex-column"
                 >
-                  <img
-                    src="assets/img/comentarios.png"
-                    class="testimonial-img m-auto"
-                    alt="Depoimento de cliente sobre diagnóstico psicossocial Escutaris"
-                  />
+                  <div class="testimonial-avatar m-auto" style="--avatar-bg: #5B8DB8;" aria-label="Giovana Muniz">GM</div>
                   <h3 class="text-center">Giovana Muniz</h3>
                   <!-- <h4 class="text-center">
                     Consultora da Sinética Inteligência Empreendedora
@@ -1815,11 +1861,7 @@
                 <div
                   class="testimonial-item d-flex justify-content-center flex-column"
                 >
-                  <img
-                    src="assets/img/comentarios.png"
-                    class="testimonial-img m-auto"
-                    alt="Depoimento de cliente sobre diagnóstico psicossocial Escutaris"
-                  />
+                  <div class="testimonial-avatar m-auto" style="--avatar-bg: #7B5EA7;" aria-label="Joel Santana">JS</div>
                   <h3 class="text-center">Joel Santana</h3>
                   <!-- <h4 class="text-center">
                     Consultora da Sinética Inteligência Empreendedora
@@ -2135,6 +2177,142 @@
       </section>
       <!-- Premium Section -->
 
+      <!-- FAQ Section -->
+      <section id="faq" class="faq section light-background py-5">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Perguntas Frequentes</h2>
+          <p>Tire suas dúvidas sobre o diagnóstico psicossocial e como a Escutaris pode ajudar sua empresa.</p>
+        </div>
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+              <div class="accordion" id="faqAccordion">
+
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                      O que é um diagnóstico psicossocial e por que minha empresa precisa?
+                    </button>
+                  </h3>
+                  <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      O diagnóstico psicossocial identifica os fatores de risco relacionados ao trabalho que afetam a saúde mental dos colaboradores — como sobrecarga, assédio, falta de autonomia, conflitos e instabilidade. Com a atualização da NR-1 (2024), toda empresa é obrigada a incluir esses riscos no PGR. A Escutaris entrega esse diagnóstico de forma científica, com questionários validados e dashboard analítico.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                      Os questionários são anônimos? Os colaboradores podem se identificar?
+                    </button>
+                  </h3>
+                  <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      Sim, o anonimato é garantido por design. Nenhuma resposta individual é rastreável — os dados são analisados em grupos e nunca de forma individual. Isso aumenta o engajamento e a honestidade das respostas. A empresa recebe apenas análises coletivas, com filtros por setor, cargo e geração, nunca por pessoa.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                      O diagnóstico da Escutaris está em conformidade com a NR-1?
+                    </button>
+                  </h3>
+                  <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      Sim. A metodologia da Escutaris foi desenvolvida para atender às exigências da NR-1 atualizada (2024) e está alinhada à ISO 45003 (norma internacional de saúde psicológica no trabalho) e à Portaria GM/MS. O relatório técnico pode ser integrado diretamente ao PGR, incluindo identificação dos perigos, avaliação e classificação dos riscos psicossociais e recomendações de medidas de controle — os elementos que a norma exige.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                      Em quanto tempo recebo os resultados após a pesquisa?
+                    </button>
+                  </h3>
+                  <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      O dashboard interativo fica disponível em até 72 horas úteis após o encerramento da coleta. O relatório técnico completo é entregue em seguida, acompanhado de uma reunião de devolutiva com nossa equipe para apresentação dos achados e orientação do plano de ação.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                      Quem deve participar da pesquisa na empresa?
+                    </button>
+                  </h3>
+                  <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      O ideal é que todos os colaboradores participem — quanto maior a adesão, mais confiável e representativo é o diagnóstico. A pesquisa pode ser aplicada por setor, unidade ou em toda a empresa. Para grupos menores que 5 pessoas, os dados são agrupados para preservar o anonimato. Trabalhadores temporários, terceirizados e estagiários também podem ser incluídos.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+                      O que fazer com os resultados? Como integrar ao PGR?
+                    </button>
+                  </h3>
+                  <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      O relatório da Escutaris já é estruturado no formato exigido pelo GRO/PGR: identificação dos perigos, avaliação dos riscos, classificação por nível de risco e recomendações de medidas de controle. Na reunião de devolutiva, nossa equipe orienta o responsável técnico (médico do trabalho, engenheiro de segurança ou SESMT) sobre como registrar os achados no PGR e priorizar as ações.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7">
+                      Como os dados dos colaboradores são protegidos? A Escutaris segue a LGPD?
+                    </button>
+                  </h3>
+                  <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      Sim. Todos os dados coletados são tratados em conformidade com a LGPD (Lei Geral de Proteção de Dados). As respostas dos colaboradores nunca são individualizadas — são processadas de forma agregada e anonimizada. A empresa contratante recebe apenas análises coletivas, sem acesso a dados pessoais identificáveis. Os dados são armazenados em ambiente seguro com controle de acesso e criptografia.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq8">
+                      Minha empresa já tem psicólogo e EAP. Por que precisaria de diagnóstico psicossocial?
+                    </button>
+                  </h3>
+                  <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      Suporte emocional e EAP atendem quem já está sofrendo — são fundamentais, mas atuam depois que o problema apareceu. O diagnóstico psicossocial age antes: identifica na fonte os fatores organizacionais que geram sofrimento (sobrecarga, falta de autonomia, estilo de liderança, conflitos estruturais) e permite intervir antes dos afastamentos. Além disso, é o diagnóstico — não o EAP — que atende à exigência da NR-1 de incluir riscos psicossociais no PGR.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h3 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq9">
+                      Como sei se minha empresa precisa de apoio externo ou consegue fazer isso internamente?
+                    </button>
+                  </h3>
+                  <div id="faq9" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                      Alguns sinais indicam que vale buscar assessoria técnica especializada: adoecimento recorrente ou aumento de afastamentos por saúde mental; conflitos sensíveis ou clima organizacional deteriorado; dúvidas sobre como atender às exigências da NR-1 no PGR; dificuldade em transformar percepções em dados confiáveis para a tomada de decisão. Se sua equipe interna de SST ou RH enfrenta qualquer desses cenários, o diagnóstico externo traz a imparcialidade e o rigor técnico necessários.
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /FAQ Section -->
+
       <!-- Contact Section -->
       <section id="contato" class="contact section light-background py-5">
         <!-- Section Title -->
@@ -2273,11 +2451,11 @@
                   Estamos prontos para ouvir e ajudar a transformar sua empresa.
                 </p>
 
-                <form id="contact" class="php-email-form w-100">
+                <form action="forms/contact.php" method="post" class="php-email-form w-100">
                   <div class="row">
-                    <div class="form-group col-md-12">
+                    <div class="form-group col-md-6">
                       <input
-                        placeholder="Nome Completo"
+                        placeholder="Nome completo *"
                         type="text"
                         name="name"
                         class="form-control"
@@ -2285,11 +2463,9 @@
                         required
                       />
                     </div>
-                  </div>
-                  <div class="row">
                     <div class="form-group col-md-6">
                       <input
-                        placeholder="Email"
+                        placeholder="E-mail corporativo *"
                         type="email"
                         name="email"
                         class="form-control"
@@ -2297,43 +2473,68 @@
                         required
                       />
                     </div>
+                  </div>
+                  <div class="row">
                     <div class="form-group col-md-6">
                       <input
-                        placeholder="Telefone"
-                        data-slots="_"
+                        placeholder="WhatsApp *"
                         type="tel"
-                        class="form-control"
                         name="phone"
+                        class="form-control"
                         id="phone"
-                        maxlength="15"
-                        onkeyup="handlePhone(event)"
+                        required
+                      />
+                    </div>
+                    <div class="form-group col-md-6">
+                      <input
+                        placeholder="Empresa *"
+                        type="text"
+                        name="company"
+                        class="form-control"
+                        id="company"
                         required
                       />
                     </div>
                   </div>
+                  <div class="row">
+                    <div class="form-group col-md-6">
+                      <select name="service" class="form-control" id="service" required>
+                        <option value="" disabled selected>Serviço de interesse *</option>
+                        <option value="Diagnóstico Psicossocial">Diagnóstico Psicossocial</option>
+                        <option value="Escuta e Direcionamento">Escuta e Direcionamento</option>
+                        <option value="Palestra">Palestra</option>
+                        <option value="Roda de Conversa">Roda de Conversa</option>
+                        <option value="Outro">Outro</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                      <select name="source" class="form-control" id="source" required>
+                        <option value="" disabled selected>Como nos conheceu *</option>
+                        <option value="Indicação">Indicação</option>
+                        <option value="Instagram">Instagram</option>
+                        <option value="LinkedIn">LinkedIn</option>
+                        <option value="Pesquisa no Google">Pesquisa no Google</option>
+                        <option value="WhatsApp">WhatsApp</option>
+                        <option value="Outro">Outro</option>
+                      </select>
+                    </div>
+                  </div>
                   <div class="form-group">
                     <textarea
-                      placeholder="Mensagem"
+                      placeholder="Mensagem (opcional)"
                       class="form-control"
                       name="message"
-                      rows="6"
+                      rows="5"
                       id="message"
-                      required
                     ></textarea>
                   </div>
+
+                  <div class="loading">Enviando...</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Mensagem enviada! Em breve entraremos em contato.</div>
+
                   <div class="d-flex justify-content-center">
-                    <button
-                      id="buttonSend"
-                      type="submit"
-                      class="btn btn-primary-beleza"
-                    >
-                      <span style="display: none" id="circle">
-                        <svg viewBox="25 25 50 50">
-                          <circle r="20" cy="50" cx="50"></circle>
-                        </svg>
-                      </span>
-                      <span id="text-form"> Enviar</span>
-                    </button>
+                    <button type="submit" class="btn btn-primary-beleza">Enviar mensagem</button>
                   </div>
                 </form>
               </div>
@@ -2487,10 +2688,10 @@
                 <i class="bi bi-chat-quote me-2 text-white"></i>
                 <a href="index.html#depoimentos" class="text-white">Depoimentos</a>
               </li>
-              <!-- <li>
+              <li>
                 <i class="bi bi-question-circle me-2 text-white"></i>
                 <a href="#faq" class="text-white">FAQ</a>
-              </li> -->
+              </li>
               <li>
                 <i class="bi bi-envelope me-2 text-white"></i>
                 <a href="index.html#contato" class="text-white">Contato</a>

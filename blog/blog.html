@@ -46,20 +46,63 @@
 
     <!-- Schema.org markup -->
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": "Blog Escutaris - Saúde Mental no Trabalho",
-        "description": "Artigos especializados sobre saúde mental organizacional e gestão de fatores psicossociais",
-        "publisher": {
-          "@type": "Organization",
-          "name": "Escutaris",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.escutaris.com.br/assets/img/logo-escutaris-removebg-preview.png"
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Blog",
+          "@id": "https://www.escutaris.com.br/blog/blog.html#blog",
+          "name": "Blog Escutaris — Saúde Mental no Trabalho",
+          "description": "Artigos especializados sobre fatores psicossociais, saúde mental ocupacional, NR-1 e gestão de riscos no trabalho. Por Dra. Ana Paula Teixeira, CRM-BA 12797.",
+          "url": "https://www.escutaris.com.br/blog/blog.html",
+          "inLanguage": "pt-BR",
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://www.escutaris.com.br/#organization",
+            "name": "Escutaris",
+            "url": "https://www.escutaris.com.br",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://www.escutaris.com.br/assets/img/logo-escutaris-removebg-preview.png",
+              "width": 300,
+              "height": 60
+            }
+          },
+          "author": {
+            "@type": "Person",
+            "@id": "https://www.escutaris.com.br/#autora-ana-paula-teixeira",
+            "name": "Dra. Ana Paula Teixeira",
+            "honorificPrefix": "Dra.",
+            "jobTitle": "Médica do Trabalho e Pesquisadora em Saúde Mental Ocupacional",
+            "description": "CRM-BA 12797. Médica do trabalho, pesquisadora em Lesão Moral no Trabalho e autora de 'Quando o Trabalho Dói' (Práxedes Livros, 2025). Fundadora da Escutaris.",
+            "hasCredential": {
+              "@type": "EducationalOccupationalCredential",
+              "credentialCategory": "Registro Médico",
+              "recognizedBy": {
+                "@type": "Organization",
+                "name": "Conselho Regional de Medicina da Bahia (CRM-BA)"
+              },
+              "identifier": "CRM-BA 12797"
+            },
+            "knowsAbout": [
+              "Medicina do Trabalho",
+              "Fatores Psicossociais de Risco",
+              "Saúde Mental Organizacional",
+              "Lesão Moral no Trabalho",
+              "NR-01 e PGR",
+              "Diagnóstico Psicossocial"
+            ],
+            "sameAs": [
+              "https://www.linkedin.com/company/escutaris",
+              "https://www.instagram.com/escutarissaudemental/"
+            ],
+            "worksFor": {
+              "@id": "https://www.escutaris.com.br/#organization"
+            }
           }
         }
-      }
+      ]
+    }
     </script>
 
     <!-- Favicons -->
@@ -256,7 +299,6 @@
         }
       }
     </style>
-    <script src="https://cdn.pagesense.io/js/919211394/00b4803addb94da7bd4c3125e5ad3792.js"></script>
   </head>
 
   <body class="service-details-page">

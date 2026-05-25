@@ -4,7 +4,7 @@ const blog = [
     img: ` <img
               src="../assets/img/blog_riscos_psicossociais_com_metodo.png"
               class="img-fluid m-auto p-3"
-              alt="Imagem do artigo"
+              alt="Guia prático para avaliar riscos psicossociais com método — Escutaris"
               style="max-width: 330px; height: 220px"
             />`,
     title: "Antes de aplicar, saiba escolher",
@@ -19,7 +19,7 @@ const blog = [
     img: ` <img
               src="../assets/img/blog_integracaodos_risco_psicossociais_ao_PCMSO_.png"
               class="img-fluid m-auto p-3"
-              alt="Imagem do artigo"
+              alt="Como integrar riscos psicossociais ao PCMSO e evitar falhas no PGR — Escutaris"
               style="max-width: 330px; height: 220px"
             />`,
     title: "Como integrar riscos psicossociais ao PCMSO e evitar falhas no PGR",
@@ -34,7 +34,7 @@ const blog = [
     img: ` <img
               src="../assets/img/blog_cultura_organizacional.png"
               class="img-fluid m-auto p-3"
-              alt="Imagem do artigo"
+              alt="Cultura organizacional e saúde mental no ambiente de trabalho — Escutaris"
               style="max-width: 330px; height: 220px"
             />`,
     title: "Cultura organizacional e saúde mental",
@@ -49,7 +49,7 @@ const blog = [
     img: ` <img
               src="../assets/img/blog_o_hse.png"
               class="img-fluid m-auto p-3"
-              alt="Imagem do artigo"
+              alt="HSE-IT: ferramenta para gestão dos fatores psicossociais no trabalho — Escutaris"
               style="max-width: 330px; height: 220px"
             />`,
     title: "O HSE-IT e a Gestão dos Fatores Psicossociais no Trabalho",
@@ -64,7 +64,7 @@ const blog = [
     img: ` <img
               src="../assets/img/blog_indicadores_de_saude.png"
               class="img-fluid m-auto p-3"
-              alt="Imagem do artigo"
+              alt="Indicadores de saúde mental no trabalho: como identificar e agir — Escutaris"
               style="max-width: 330px; height: 220px"
             />`,
     title: "Indicadores de saúde mental no trabalho",
@@ -79,7 +79,7 @@ const blog = [
     img: ` <img
               src="../assets/img/blog-impacto_dos_fatores.png"
               class="img-fluid m-auto p-3"
-              alt="Imagem do artigo"
+              alt="Impacto dos fatores psicossociais no bem-estar e desempenho das equipes — Escutaris"
               style="max-width: 330px; height: 220px"
             />`,
     title: "Impacto dos Fatores Psicossociais no Trabalho",
@@ -94,7 +94,7 @@ const blog = [
     img: ` <img
               src="../assets/img/a-nova-nr-1-e-a-gestao-de-riscos-psicossociais.png"
               class="img-fluid m-auto p-3"
-              alt="Imagem do artigo"
+              alt="A nova NR-1 e a gestão de riscos psicossociais nas empresas — Escutaris"
               style="max-width: 330px; height: 220px"
             />`,
     title: "A Nova NR-1 e a Gestão de Riscos Psicossociais",
@@ -109,7 +109,7 @@ const blog = [
     img: ` <img
               src="../assets/img/riscos-psicossociais-no-trabalho.png"
               class="img-fluid m-auto p-3"
-              alt="Imagem do artigo"
+              alt="Riscos psicossociais no trabalho: práticas eficazes para mitigar impactos — Escutaris"
               style="max-width: 330px; height: 220px"
             />`,
     title: "Riscos psicossociais no trabalho",
@@ -124,7 +124,7 @@ const blog = [
     img: ` <img
               src="../assets/img/nao-sou-um-lider-toxico.png"
               class="img-fluid m-auto p-3"
-              alt="Imagem do artigo"
+              alt="Como liderar com empatia sem perder a autoridade: liderança sem toxicidade — Escutaris"
               style="max-width: 330px; height: 220px"
             />`,
     title: "Não sou um líder tóxico",
@@ -139,7 +139,7 @@ const blog = [
     img: ` <img
               src="../assets/img/adequacao_a_nr1.png"
               class="img-fluid m-auto p-3"
-              alt="Imagem do artigo"
+              alt="Adequação à NR-1: custo ou investimento para o futuro da sua empresa — Escutaris"
               style="max-width: 330px; height: 220px"
             />`,
     title: "Adequação à NR1",
@@ -154,7 +154,7 @@ const blog = [
     img: ` <img
               src="../assets/img/avaliacao_psicossocial.png"
               class="img-fluid m-auto p-3"
-              alt="Imagem do artigo"
+              alt="Diferença entre avaliação de fatores psicossociais e avaliação psicossocial — Escutaris"
               style="max-width: 330px; height: 220px"
             />`,
     title: "Avaliação de fatores psicossociais x Avaliação psicossocial",
@@ -169,7 +169,7 @@ const blog = [
     img: ` <img
               src="../assets/img/assedio_moral.png"
               class="img-fluid m-auto p-3"
-              alt="Imagem do artigo"
+              alt="Como prevenir e combater o assédio moral no trabalho conforme NR-1 — Escutaris"
               style="max-width: 330px; height: 220px"
             />`,
     title: "Assédio moral no trabalho",
@@ -184,7 +184,7 @@ const blog = [
     img: ` <img
               src="../assets/img/hse_indicator_tool.png"
               class="img-fluid m-auto p-3"
-              alt="Imagem do artigo"
+              alt="HSE Indicator Tool: como transformar a gestão dos fatores psicossociais na empresa — Escutaris"
               style="max-width: 330px; height: 220px"
             />`,
     title: "HSE Indicator Tool",
@@ -199,7 +199,7 @@ const blog = [
     img: ` <img
               src="../assets/img/lideranca_saude_mental.png"
               class="img-fluid m-auto p-3"
-              alt="Imagem do artigo"
+              alt="Liderança e saúde mental: como prevenir riscos psicossociais no trabalho — Escutaris"
               style="max-width: 330px; height: 220px"
             />`,
     title: "Liderança e saúde mental",
@@ -214,7 +214,7 @@ const blog = [
     img: ` <img
               src="../assets/img/pesquisa_riscos_psicossociais.png"
               class="img-fluid m-auto p-3"
-              alt="Imagem do artigo"
+              alt="Pesquisa de riscos psicossociais com sigilo e confiança — Escutaris"
               style="max-width: 330px; height: 220px"
             />`,
     title: "Pesquisa de Riscos Psicossociais",
@@ -229,7 +229,7 @@ const blog = [
     img: ` <img
               src="../assets/img/riscos_psicossociais_nova_nr1.png"
               class="img-fluid m-auto p-3"
-              alt="Imagem do artigo"
+              alt="Riscos psicossociais e a nova NR-1: como evitar penalidades e proteger sua empresa — Escutaris"
               style="max-width: 330px; height: 220px"
             />`,
     title: "Riscos Psicossociais e a Nova NR-1",
@@ -244,7 +244,7 @@ const blog = [
     img: ` <img
                 src="../assets/img/ambiente-seguro.png"
                 class="img-fluid m-auto p-3"
-                alt="Imagem do artigo"
+                alt="Como tornar a empresa um ambiente psicologicamente seguro — Escutaris"
                 style="max-width: 330px; height: 220px"
               />`,
     title: "Ambiente seguro mentalmente",
@@ -259,7 +259,7 @@ const blog = [
     img: ` <img
                 src="../assets/img/artigo-como-a-nr1-orienta.jpeg"
                 class="img-fluid m-auto p-3"
-                alt="Imagem do artigo"
+                alt="Como a NR-1 orienta a comunicação de riscos ocupacionais aos trabalhadores — Escutaris"
                 style="max-width: 330px; height: 220px"
               />`,
     title: "Comunicação de Riscos",
@@ -272,9 +272,9 @@ const blog = [
   // A nova NR1 vai aumentar a burocracia?
   {
     img: `<img
-                src="..//assets/img/nova-nr1-vai-aumentar-a-burocracia.jpeg"
+                src="../assets/img/nova-nr1-vai-aumentar-a-burocracia.jpeg"
                 class="img-fluid m-auto p-3"
-                alt="Imagem do artigo"
+                alt="A nova NR-1 vai aumentar a burocracia? Como transformar em vantagem — Escutaris"
                 style="max-width: auto; height: 220px"
               />`,
     title: "A nova NR1 vai aumentar a burocracia?",
@@ -293,7 +293,7 @@ const blog = [
     img: `<img
                 src="../assets/img/o-perigo-invisivel.jpg"
                 class="img-fluid m-auto"
-                alt="Imagem do artigo"
+                alt="Fatores psicossociais invisíveis que levam a acidentes graves no trabalho — Escutaris"
                 style="max-width: 100%; height: 200px"
               />`,
     title: "O perigo invisível",
@@ -308,7 +308,7 @@ const blog = [
     img: `<img
                 src="../assets/img/erro.jpeg"
                 class="img-fluid m-auto"
-                alt="Imagem do artigo"
+                alt="O erro fatal na adequação à NR-1: diagnósticos psicossociais superficiais — Escutaris"
                 style="max-width: 100%; height: 200px"
               />`,
     title: "O erro fatal na adequação à nr1",
@@ -323,7 +323,7 @@ const blog = [
     img: `<img
                 src="../assets/img/anonimo.png"
                 class="img-fluid m-auto"
-                alt="Imagem do artigo"
+                alt="Anonimato e LGPD: privacidade dos colaboradores em diagnósticos psicossociais — Escutaris"
                 style="max-width: 100%; height: 200"
               />`,
     title: "Anonimato e LGPD",
@@ -338,7 +338,7 @@ const blog = [
     img: `<img
                 src="../assets/img/nr01.png"
                 class="img-fluid m-auto p-3"
-                alt="Imagem do artigo"
+                alt="Riscos psicossociais: a nova exigência da NR-1 que sua empresa não pode ignorar — Escutaris"
                 style="max-width: 330px"
               />`,
     title: "Riscos Psicossociais",
